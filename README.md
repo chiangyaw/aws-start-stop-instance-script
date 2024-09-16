@@ -29,9 +29,9 @@ By utilizing these automated functions, the project aims to streamline operation
                 "Sid": "Statement1",
                 "Effect": "Allow",
                 "Action": [
+                    "ec2:StopInstances",
                     "ec2:DescribeInstances",
-                    "ec2:DeleteTags",
-                    "ec2:StartInstances"
+                    "ec2:CreateTags"
                 ],
                 "Resource": "*"
             }
