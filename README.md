@@ -52,6 +52,22 @@ By utilizing these automated functions, the project aims to streamline operation
 
 2. Make sure the following permissions are included in the IAM Role, on top of the default permission required for the AWS Lambda to run:
     ```
+    {
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:DescribeInstances",
+                "ec2:DeleteTags",
+                "ec2:StartInstances"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
+    ```
 
 
 3. Configure a trigger with EventBridge (CloudWatch Events), stating a schedule and the required schedule expression. For example, if I need the function to be triggered every Monday to Friday at 9AM SGT, I will have the cron expression written as such:
