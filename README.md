@@ -80,4 +80,4 @@ By utilizing these automated functions, the project aims to streamline operation
 
 
 #### Conclusion
-This are just simple scripts that is designed to minimize your cost on your AWS account. Feel free to give me a ping for any bug or improvement required.
+This are just simple scripts that is designed to minimize your cost on your AWS account. Feel free to give me a ping for any bug or improvement required. Hope this helps!
