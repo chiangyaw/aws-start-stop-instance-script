@@ -1,6 +1,6 @@
 <div align="center"><img src="resources/banner.jpeg" width="250" height="250"></div>
 
-# Stop & Start EC2 Instances with AWS Lambda
+# Stop & Start EC2 Instances automatically with AWS Lambda
 
 This is a small project that covers 2 AWS Lambda functions, written in Python, designed to optimize AWS EC2 resource usage & cost by automatically managing instance uptime. 
 
